@@ -1,1 +1,2 @@
 we have added more storege data for lte project.
+we have added 2G 3G related storage data. 
