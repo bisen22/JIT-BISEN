@@ -1,0 +1,1 @@
+Visual Studio Code redefines AI-powered coding with GitHub Copilot for building and debugging modern web and cloud applications
