@@ -1,0 +1,116 @@
+File & Directory
+
+ls        # list files
+cd        # change directory
+pwd       # current path
+cp        # copy
+mv        # move/rename
+rm        # delete
+mkdir     # create directory
+
+----------------------------------------------------
+File View/Edit
+
+cat file.txt
+less file.txt
+head file.txt
+tail -f file.log
+nano file.txt
+vi file.txt
+
+-------------------------------------------
+
+User & Permission Management
+
+whoami
+id
+adduser user1
+passwd user1
+chmod 755 file
+chown user:group file
+
+----------------------------------------------
+
+Permissions:
+
+r = read (4)
+
+w = write (2)
+
+x = execute (1)
+
+---------------------------------------------
+
+Package Management (APT)
+
+apt update
+apt upgrade
+apt install nginx
+apt remove nginx
+apt search docker
+
+--------------------------------------------------
+
+Process & Service Management
+
+ps -ef
+top
+htop
+kill -9 PID
+systemctl status nginx
+systemctl start nginx
+systemctl stop nginx
+systemctl enable nginx
+
+-----------------------------------
+
+Networking Commands
+
+ip a
+ip r
+ss -tulnp
+ping google.com
+traceroute google.com
+curl http://localhost
+
+----------------------------------------------------
+Logs & Troubleshooting
+
+cd /var/log
+tail -f syslog
+journalctl -xe
+journalctl -u nginx
+
+----------------------------------------------------
+
+Disk & Memory
+
+df -h
+du -sh *
+free -m
+lsblk
+----------------------------------------------------------
+
+Ubuntu in DevOps
+
+Used in AWS EC2 / Azure VM
+
+Base image for Docker
+
+Kubernetes worker/master nodes
+
+CI/CD servers (Jenkins)
+
+------------------------------------------------------------------------------
+
+Must-Know for Interviews
+
+Ubuntu vs CentOS
+
+apt vs yum
+
+systemctl vs service
+
+Where logs are stored
+
+How to check running services
