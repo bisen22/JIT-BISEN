@@ -1,0 +1,44 @@
+bisen@DESKTOP-RKJC1QB:~$ cd bansal
+bisen@DESKTOP-RKJC1QB:~/bansal$ mkdir sachin
+bisen@DESKTOP-RKJC1QB:~/bansal$ cd sachin
+bisen@DESKTOP-RKJC1QB:~/bansal/sachin$ cd ..
+bisen@DESKTOP-RKJC1QB:~/bansal$ cd ..
+bisen@DESKTOP-RKJC1QB:~$ cd bansal
+bisen@DESKTOP-RKJC1QB:~/bansal$ vi text.txt
+bisen@DESKTOP-RKJC1QB:~/bansal$ cat text.txt
+ready to 5Gready to 5G
+bisen@DESKTOP-RKJC1QB:~/bansal$ pwd
+/home/bisen/bansal
+bisen@DESKTOP-RKJC1QB:~/bansal$ cp text.txt /home/bisen/bansal
+cp: 'text.txt' and '/home/bisen/bansal/text.txt' are the same file
+bisen@DESKTOP-RKJC1QB:~/bansal$ ls
+sachin  text.txt
+bisen@DESKTOP-RKJC1QB:~/bansal$ cd sachin
+bisen@DESKTOP-RKJC1QB:~/bansal/sachin$ pwd
+/home/bisen/bansal/sachin
+bisen@DESKTOP-RKJC1QB:~/bansal/sachin$ cd ..
+bisen@DESKTOP-RKJC1QB:~/bansal$ cp text.txt /home/bisen/bansal/sachin
+bisen@DESKTOP-RKJC1QB:~/bansal$ cd sachin
+bisen@DESKTOP-RKJC1QB:~/bansal/sachin$ ls
+text.txt
+bisen@DESKTOP-RKJC1QB:~/bansal/sachin$ cd ..
+bisen@DESKTOP-RKJC1QB:~/bansal$ vi text.txt1 (Write inside directory)
+bisen@DESKTOP-RKJC1QB:~/bansal$ ls
+sachin  text.txt  text.txt1
+bisen@DESKTOP-RKJC1QB:~/bansal$ cat text.txt1
+ready to 6G
+bisen@DESKTOP-RKJC1QB:~/bansal$ cd sachin
+bisen@DESKTOP-RKJC1QB:~/bansal/sachin$ cd ..
+bisen@DESKTOP-RKJC1QB:~/bansal$ mv text.tx1 /home/bisen/bansal/sachin
+mv: cannot stat 'text.tx1': No such file or directory
+bisen@DESKTOP-RKJC1QB:~/bansal$ cd sachin
+bisen@DESKTOP-RKJC1QB:~/bansal/sachin$ mv text.tx1 /home/bisen/bansal/sachin (move)
+bisen@DESKTOP-RKJC1QB:~/bansal/sachin$ ls
+text.txt
+bisen@DESKTOP-RKJC1QB:~/bansal/sachin$ cd ..
+bisen@DESKTOP-RKJC1QB:~/bansal$ ls
+sachin  text.txt  text.txt1
+bisen@DESKTOP-RKJC1QB:~/bansal$ mv text.txt next.txt (rename)
+bisen@DESKTOP-RKJC1QB:~/bansal$ ls
+next.txt  sachin  text.txt1
+bisen@DESKTOP-RKJC1QB:~/bansal$
